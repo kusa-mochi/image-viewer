@@ -1,0 +1,10 @@
+version: "3.8"
+services: 
+  app:
+    command: "bash"
+    image: whoatemyapplepie/image-viewer-dev-env:0.1.0
+    ports: 
+      - 8080:8080
+    tty: true
+    volumes: 
+      - ${PWD}:/app
