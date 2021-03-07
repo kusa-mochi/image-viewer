@@ -1,5 +1,7 @@
 # image-viewer
 
+You need Node.js 14.16.0 and yarn 1.22.10.
+
 ## Project setup
 ```
 yarn install
